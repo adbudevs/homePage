@@ -1,0 +1,14 @@
+$screen-sm-max: 768px;
+$screen-md-min: ($screen-sm-max + 1);
+$screen-md-max: 1920px;
+$screen-xl-min: ($screen-md-min + 1);
+$screen-xl: "(min-width:#{$screen-xl-min})" !default;
+$screen-md: "(min-width:#{$screen-md-min}) and (max-width:#{$screen-md-max})" !default;
+$screen-sm: "(max-width:#{$screen-sm-max})" !default;
+
+@import './app/main/main';
+
+
+body {
+  margin: 0;
+}
