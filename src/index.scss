@@ -6,9 +6,22 @@ $screen-xl: "(min-width:#{$screen-xl-min})" !default;
 $screen-md: "(min-width:#{$screen-md-min}) and (max-width:#{$screen-md-max})" !default;
 $screen-sm: "(max-width:#{$screen-sm-max})" !default;
 
+$bg-colour-1: #2a6b9c;
+$bg-colour-2: #111f2f;
+$light-bg: #f8fafb;
+$grey-colour: #a9abad;
+
 @import './app/main/main';
 
 
 body {
   margin: 0;
+  text-align: center;
+  font-size: 16px;
+  background-color: $light-bg;
+  color: $grey-colour;
+}
+
+button:focus {
+  outline:0;
 }

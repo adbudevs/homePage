@@ -1,23 +1,157 @@
 .city {
   @media #{$screen-md} {
     background-image: url("./resources/img/1080/home/imagen1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
     padding-top: 56.25%;
+  }
+  color: $light-bg;
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-size: 3em;
+    margin-top: -50%;
+  }
+
+  .home-logo {
+    @media #{$screen-md} {
+      background-image: url("./resources/img/1080/home/logo.svg");
+      padding-top: 56.25%;
+    }
+  }
+
+  .home-menu {
+    @media #{$screen-md} {
+      background-image: url("./resources/img/1080/home/menu-hamburguesa.svg");
+      padding-top: 56.25%;
+    }
   }
 }
 
 .cover {
-  height: 150px;
+  padding: 4em 15em 6em 15em;
+}
+
+.image-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
 }
 
 .desk {
-  height: 150px;
-  background-color: #55657b;
+  @media #{$screen-md} {
+    background-image: url("./resources/img/1080/home/imagen2.svg");
+    padding-top: 17.82%;
+  }
 }
 
 .studios {
-  height: 300px;
+  height: 20em;
+
+  .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-colour-2;
+    color: $light-bg;
+
+    p {
+      padding: 3em;
+    }
+  }
+
+  .studio-names {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      justify-content: space-around;
+      width: 100%
+    }
+  }
+}
+
+.map {
+  @media #{$screen-md} {
+    background-image: url("./resources/img/1080/home/mapaadbu.svg");
+    padding-top: 26.05%;
+  }
+}
+
+.products {
+  @media #{$screen-md} {
+    background-image: url("./resources/img/1080/home/imagendevices.svg");
+    padding-top: 37.5%;
+  }
+}
+
+.work-together {
+  @media #{$screen-md} {
+    background-image: url("./resources/img/1080/home/imagencontacto.svg");
+    padding-top: 36.45%;
+  }
+
+  div {
+    color: $light-bg;
+    width: 70%;
+    margin-top: -25%;
+
+    p:first-of-type {
+      font-size: 2em;
+    }
+  }
+}
+
+.join-us {
+  color: $light-bg;
+  background-color: $bg-colour-1;
+  height: 12em;
+  display: flex;
+  align-items: center;
+
+  div:first-of-type {
+    border-right: 1px solid $light-bg;
+  }
+
+  div {
+    height: 8em;
+    width: 50%;
+  }
+}
+
+.footer {
+  color: $light-bg;
+  background-color: $bg-colour-1;
+  height: 12em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-btn {
+  border-radius: 20px;
+  height: 3em;
+  width: 14em;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.blue-btn {
+  background-color: $bg-colour-1;
+  border-color: $light-bg;
+  color: $light-bg;
+}
+
+.white-btn {
+  background-color: $light-bg;
+  border-color: $bg-colour-1;
+  color: $grey-colour;
+}
+
+.title-blue {
+  color: $bg-colour-1;
+  font-size: 2em;
 }
