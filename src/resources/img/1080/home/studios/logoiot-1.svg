@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1760 2540 148 148">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #48bfef;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #48bfef;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="logoiot" transform="translate(1760 2540)">
+    <path id="Path_881" data-name="Path 881" class="cls-1" d="M74,0A74,74,0,1,1,0,74,74,74,0,0,1,74,0Z"/>
+    <path id="Path_877" data-name="Path 877" class="cls-2" d="M36.654,61.327s-19.944,0-19.944,20.148S34.5,100.6,34.5,100.6H118.6s11.411-1.021,11.411-13.575-14.6-14.6-14.6-14.6,3.981-13.34-7.6-21.057-22.527.388-22.527.388-9.329-14.841-29.6-10.044C40.063,45.445,36.654,61.327,36.654,61.327Z" transform="translate(0.346 0.843)"/>
+    <path id="Path_878" data-name="Path 878" class="cls-3" d="M79.958,85.358a11.462,11.462,0,0,0-15.188,0" transform="translate(1.34 1.707)"/>
+    <path id="Path_879" data-name="Path 879" class="cls-3" d="M85.373,80.889a19.465,19.465,0,0,0-25.8,0" transform="translate(1.232 1.572)"/>
+    <path id="Path_880" data-name="Path 880" class="cls-3" d="M91.246,77.543a28.151,28.151,0,0,0-37.306,0" transform="translate(1.116 1.458)"/>
+  </g>
+</svg>

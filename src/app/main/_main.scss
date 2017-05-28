@@ -46,7 +46,7 @@
 }
 
 .studios {
-  height: 20em;
+  height: 40em;
 
   .paragraph {
     display: flex;
@@ -69,6 +69,84 @@
       display: flex;
       justify-content: space-around;
       width: 100%
+    }
+
+    a {
+      text-decoration: none;
+      color: $grey-colour;
+      margin: 2em 0;
+
+      div {
+        width: 6em;
+        height: 6em;
+        margin: auto;
+        padding-bottom: 0.5em;
+      }
+      .mobile-studio {
+        @media #{$screen-md} {
+          background-image: url("");
+        }
+      }
+
+      .iot-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/logoiot.svg");
+        }
+      }
+
+      .creative-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/btncreativeA.svg");
+        }
+      }
+
+      .dev-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/botodev.svg");
+        }
+      }
+
+      .data-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/btndataA.svg");
+        }
+      }
+    }
+
+    a:hover {
+      color: $light-blue;
+      -webkit-animation: zoom 0.3s; /* Chrome, Safari, Opera */
+      animation: zoom 0.3s;
+
+      .mobile-studio {
+        @media #{$screen-md} {
+          background-image: url("");
+        }
+      }
+
+      .iot-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/logoiot-1.svg");
+        }
+      }
+
+      .creative-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/btncreativeB.svg");
+        }
+      }
+
+      .dev-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/botodevB.svg");
+        }
+      }
+
+      .data-studio {
+        @media #{$screen-md} {
+          background-image: url("./resources/img/1080/home/studios/btndataB.svg");
+        }
+      }
     }
   }
 }
@@ -154,4 +232,16 @@
 .title-blue {
   color: $bg-colour-1;
   font-size: 2em;
+}
+
+@keyframes zoom {
+  0% {
+       -webkit-transform: scale(1,1);
+   }
+   50% {
+       -webkit-transform: scale(1.1,1.1);
+   }
+   100% {
+       -webkit-transform: scale(1,1);
+   }
 }
