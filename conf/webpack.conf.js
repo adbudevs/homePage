@@ -16,7 +16,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.svg$/, 
+        test: /\.svg$/,
         loader: 'file-loader'
       },
       {
@@ -34,6 +34,12 @@ module.exports = {
           'postcss-loader'
         ]
       },
+
+      {
+        test: /\.(png|woff|woff2|eot|ttf)$/,
+        loader: 'url-loader?limit=100000'
+      },
+
       {
         test: /\.js$/,
         exclude: /node_modules/,

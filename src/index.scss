@@ -14,15 +14,43 @@ $grey-colour: #a9abad;
 
 @import './app/main/main';
 
+@font-face {
+  font-family: latoLight;
+  src: url("./resources/fonts/Lato-Light.ttf")
+}
+
+@font-face {
+  font-family: latoBlack;
+  src: url("./resources/fonts/Lato-Black.ttf")
+}
+
+@font-face {
+  font-family: latoRegular;
+  src: url("./resources/fonts/Lato-Regular.ttf")
+}
 
 body {
   margin: 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.5vw;
   background-color: $light-bg;
   color: $grey-colour;
+  font-family: latoLight;
 }
 
 button:focus {
   outline:0;
+}
+
+.title {
+  font-family: latoBlack;
+}
+
+.subtitle {
+  font-family: latoRegular;
+}
+
+.title-blue {
+  color: $bg-colour-1;
+  font-size: 2vw;
 }
