@@ -1,8 +1,10 @@
 <div>
-  <section class="image-container city">
+  <section class="image-container city" ng-class="{zoom: ctrl.isOpen}">
     <div class="logo-wrapper">
       <div class="image-container home-logo"></div>
-      <div class="image-container home-menu"></div>
+      <div class="image-container home-menu" ng-click="ctrl.toggleMenu()">
+        <adbu-menu is-visible="ctrl.isOpen"></adbu-menu>
+      </div>
     </div>
     <div class="text-wrapper">
       <p>

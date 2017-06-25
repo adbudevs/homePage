@@ -20,13 +20,15 @@ angular
   .component('fountainFooter', footer);*/
 
   import 'angular-ui-router';
+  import ngAnimate from 'angular-animate';
   import routesConfig from './routes';
+  import {menuModule} from './app/menu/index';
 
   import {main} from './app/main/main';
 
   import './index.scss';
 
   angular
-    .module('adbu', ['ui.router'])
+    .module('adbu', [menuModule, ngAnimate, 'ui.router'])
     .config(routesConfig)
     .component('adbu', main);

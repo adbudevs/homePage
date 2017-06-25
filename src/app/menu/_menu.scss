@@ -1,0 +1,41 @@
+.show {
+  height: 100% !important;
+}
+
+.menu-wrapper {
+  background: $bg-colour-2;
+  position: fixed;
+  left: 1%;
+  width: 98%;
+  height: 0;
+  opacity: 0.95;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+
+  div {
+    div {
+      padding: 2rem;
+      width: 40%;
+    }
+  }
+
+  .blue-line {
+    border-bottom: 2px solid $bg-colour-1;
+  }
+
+  a {
+    color: $grey-colour;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $light-blue;
+  }
+}
